@@ -1,0 +1,41 @@
+{
+  "name": "james-auth",
+  "version": "1.0.0",
+  "description": "An authentication system using JWTs, Angular, MySQL, Express and the Sequelize ORM.",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hisk/james-auth.git"
+  },
+  "keywords": [
+    "express",
+    "jwt-authentication",
+    "jwt",
+    "mysql",
+    "angular",
+    "sequelize",
+    "authentication"
+  ],
+  "author": "Nick C. Vasile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hisk/james-auth/issues"
+  },
+  "homepage": "https://github.com/hisk/james-auth#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "morgan": "^1.8.2",
+    "mysql": "^2.14.0",
+    "mysql2": "^1.3.6",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "sequelize": "^4.4.2"
+  }
+}
