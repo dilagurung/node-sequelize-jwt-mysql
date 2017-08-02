@@ -12,16 +12,17 @@ var config = require('../config'),
 var AuthController = {};
 
 // Register a user.
-AuthController.signUp = function(req, res) {
-    if(!req.body.username || !req.body.password) {
-        res.json({ message: 'Please provide a username and a password.' });
+AuthController.signUp = function(req, res)
+{
+    console.log(req.body.user);
+    if(!req.body.user.id || !req.body.user.password) {
+        res.json({ message: 'Please provide user id  and a password.' });
+        res.json({ message: 'Please provide user id  and a password.' });
     } else {
-        db.sync().then(function() {
-            var newUser = {
-                username: req.body.username,
-                password: req.body.password
-            };
-
+        db.sync().then(function() 
+        {
+            req.body.user.role=config.userRoles.user;
+            var newUser = req.body.user;
             return User.create(newUser).then(function()
             {
                console.log('Account created');
@@ -36,17 +37,19 @@ AuthController.signUp = function(req, res) {
 
 // Authenticate a user.
 AuthController.authenticateUser = function(req, res) {
-    if(!req.body.username || !req.body.password) {
+    console.log(req.body.user);
+    if(!req.body.user.id || !req.body.user.password) {
+        console.log('needd');
         res.status(404).json({ message: 'Username and password are needed!' });
     } else {
-        console.log(req.body.username);
-        console.log(req.body.password);
-        var username = req.body.username,
-            password = req.body.password;
+        console.log(req.body.user.id);
+        console.log(req.body.user.password);
+        var id = req.body.user.id,
+            password = req.body.user.password;
         //    potentialUser = { where: { username: username } };
 
-        console.log('',username);
-        User.findOne({where:{username: username}}).then(function(user)
+        console.log('',id);
+        User.findOne({where:{id: id}}).then(function(user)
         {
             if(!user)
             {
@@ -76,7 +79,7 @@ AuthController.authenticateUser = function(req, res) {
 console.log('password match');
 
                         var token = jwt.sign(
-                            { username: user.username },
+                            { id: user.id },
                             config.keys.secret,
                             { expiresIn: '30m' }
                         );

@@ -12,4 +12,7 @@ In order to start the server run:
 ```
 node app/server.js
 ```
-#derived from (https://hisk.io/role-based-authentication-with-angular-express-jwt-mysql-part-1) 
+#derived from (https://hisk.io/role-based-authentication-with-angular-express-jwt-mysql-part-1)
+http://docs.sequelizejs.com/manual/tutorial/models-definition.html
+for more on datbase level reg-experession validation
+//https://stackoverflow.com/questions/29716346/how-to-create-a-trigger-in-sequelize-nodejs

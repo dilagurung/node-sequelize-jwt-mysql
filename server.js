@@ -10,7 +10,7 @@ var express = require('express'),
     path = require('path');
 
 // App related modules.
-var hookJWTStrategy = require('./services/passportStrategy');
+var hookJWTStrategy = require('./app/services/passportStrategy');
 
 // Initializations.
 var app = express();
@@ -29,14 +29,14 @@ app.use(passport.initialize());
 hookJWTStrategy(passport);
 
 // Set the static files location.
-app.use(express.static(__dirname + '/../public'));
+app.use(express.static(__dirname + '/public'));
 
 // Bundle API routes.
-app.use('/api', require('./routes/api')(passport));
+app.use('/api', require('./app/routes/api')(passport));
 
 // Catch all route.
 app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname + '/../public/app/views/index.html'));
+    res.sendFile(path.join(__dirname + '/public/app/views/index.html'));
 });
 
 // Start the server.
