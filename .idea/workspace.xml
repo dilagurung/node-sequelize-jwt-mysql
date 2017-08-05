@@ -24,45 +24,25 @@
       <file leaf-file-name="api.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="748">
               <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/jobController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/authController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial-profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/views/partials/partial-profile.html">
+      <file leaf-file-name="license.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/license.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -71,21 +51,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passportStrategy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/services/passportStrategy.js">
+      <file leaf-file-name="jobDao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/jobDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            <state relative-caret-position="119">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="License.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/License.js">
+      <file leaf-file-name="candidateDao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/candidateDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companyDao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/companyDao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactDao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/contactDao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <file leaf-file-name="licenseDao.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dao/licenseDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -103,21 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/views/index.html">
+      <file leaf-file-name="noteDao.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/dao/noteDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/app.js">
+      <file leaf-file-name="organizationDao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dao/organizationDao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,11 +143,6 @@
         <option value="$PROJECT_DIR$/app/controllers/organizationControler.js" />
         <option value="$PROJECT_DIR$/app/controllers/adminController.js" />
         <option value="$PROJECT_DIR$/app/controllers/userController.js" />
-        <option value="$PROJECT_DIR$/app/dao/candidateDao.js" />
-        <option value="$PROJECT_DIR$/app/dao/companyDao.js" />
-        <option value="$PROJECT_DIR$/app/dao/contactDao.js" />
-        <option value="$PROJECT_DIR$/app/dao/jobDao.js" />
-        <option value="$PROJECT_DIR$/app/dao/licenseDao.js" />
         <option value="$PROJECT_DIR$/app/controllers/companyController.js" />
         <option value="$PROJECT_DIR$/app/controllers/contactController.js" />
         <option value="$PROJECT_DIR$/app/controllers/licenseController.js" />
@@ -163,11 +158,9 @@
         <option value="$PROJECT_DIR$/app/models/Candidate.js" />
         <option value="$PROJECT_DIR$/app/models/Contact.js" />
         <option value="$PROJECT_DIR$/app/models/License.js" />
-        <option value="$PROJECT_DIR$/app/dao/organizationDao.js" />
         <option value="$PROJECT_DIR$/app/models/Job.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/models/note.js" />
-        <option value="$PROJECT_DIR$/app/dao/noteDao.js" />
         <option value="$PROJECT_DIR$/app/controllers/noteController.js" />
         <option value="$PROJECT_DIR$/public/api.json" />
         <option value="$PROJECT_DIR$/public/app/services/authService.js" />
@@ -178,6 +171,13 @@
         <option value="$PROJECT_DIR$/app/controllers/authController.js" />
         <option value="$PROJECT_DIR$/app/services/passportStrategy.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/app/dao/organizationDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/candidateDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/companyDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/contactDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/jobDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/licenseDao.js" />
+        <option value="$PROJECT_DIR$/app/dao/noteDao.js" />
       </list>
     </option>
   </component>
@@ -190,10 +190,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="736" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -431,6 +431,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="james-auth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -442,7 +478,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../examples/angular/angular2-registration-login-example" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="pa&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;ser&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;auth&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/authController.js&#10;SER&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;au&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/authController.js&#10;server&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;api&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/routes/api.js&#10;licenseDa&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/licenseDao.js&#10;Lice&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;a&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/app.js&#10;pas&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;serv&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;pass&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;ap&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/routes/api.js&#10;passp&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;read&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/README.md&#10;ca&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Candidate.js&#10;job&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/jobDao.js&#10;jo&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Job.js&#10;can&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/candidateDao.js&#10;cand&#9;null&#9;null&#10;candi&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/candidateController.js&#10;contact&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;com&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Company.js&#10;lic&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;org&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/organizationController.js&#10;orga&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/organizationDao.js&#10;user&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/user.js&#10;si&#9;null&#9;null&#10;userrol&#9;null&#9;null&#10;user.js&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/user.js&#10;see&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/seeder/seed-syntey.js&#10;or&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/organization.js&#10;gu&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/test/gulpfile.js&#10;Lic&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;se&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/seeder/seed-syntey.js&#10;Comp&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Company.js&#10;Contac&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;sig&#9;null&#9;null&#10;lice&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;contactd&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/contactDao.js&#10;pack&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/package.json&#10;Cont&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;aut&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/services/authService.js&#10;app&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/app.js&#10;conf&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/config.js&#10;log&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="jobda&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/jobDao.js&#10;licen&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/licenseDao.js&#10;pa&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;ser&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;auth&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/authController.js&#10;SER&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;au&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/authController.js&#10;server&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;api&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/routes/api.js&#10;licenseDa&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/licenseDao.js&#10;Lice&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;a&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/app.js&#10;pas&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;serv&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/server.js&#10;pass&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;ap&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/routes/api.js&#10;passp&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/services/passportStrategy.js&#10;read&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/README.md&#10;ca&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Candidate.js&#10;job&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/jobDao.js&#10;jo&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Job.js&#10;can&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/candidateDao.js&#10;cand&#9;null&#9;null&#10;candi&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/candidateController.js&#10;contact&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;com&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Company.js&#10;lic&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;org&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/controllers/organizationController.js&#10;orga&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/organizationDao.js&#10;user&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/user.js&#10;si&#9;null&#9;null&#10;userrol&#9;null&#9;null&#10;user.js&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/user.js&#10;see&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/seeder/seed-syntey.js&#10;or&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/organization.js&#10;gu&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/test/gulpfile.js&#10;Lic&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;se&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/seeder/seed-syntey.js&#10;Comp&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Company.js&#10;Contac&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;sig&#9;null&#9;null&#10;lice&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/License.js&#10;contactd&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/dao/contactDao.js&#10;pack&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/package.json&#10;Cont&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/models/Contact.js&#10;aut&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/services/authService.js&#10;app&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/public/app/app.js&#10;conf&#9;FILE&#9;file://F:/vurung/node/JWT/two/james-auth/app/config.js&#10;log&#9;null&#9;null" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -540,34 +576,35 @@
       <workItem from="1501749455321" duration="9792000" />
       <workItem from="1501778200977" duration="1136000" />
       <workItem from="1501821614718" duration="12203000" />
-      <workItem from="1501923993431" duration="6295000" />
+      <workItem from="1501923993431" duration="6599000" />
+      <workItem from="1501934432137" duration="190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114366000" />
+    <option name="totallyTimeSpent" value="114860000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="736" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25263953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25223213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33448875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3344538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -587,24 +624,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/test/testMongo.js" />
-    <entry file="file://$PROJECT_DIR$/app/dao/contactDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/userController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/companyDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -678,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/organizationDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/organizationController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -692,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Contact.js">
+    <entry file="file://$PROJECT_DIR$/app/models/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
@@ -706,20 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/candidateDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/jobDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -727,21 +729,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Job.js">
+    <entry file="file://$PROJECT_DIR$/app/models/job.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="90" column="14" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Candidate.js">
+    <entry file="file://$PROJECT_DIR$/app/models/candidate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2159">
           <caret line="129" column="34" selection-start-line="129" selection-start-column="33" selection-end-line="129" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Company.js">
+    <entry file="file://$PROJECT_DIR$/app/models/company.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="73" selection-end-column="57" />
@@ -759,13 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/noteDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -884,24 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dao/licenseDao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/License.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/services/routesHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -919,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/authController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="629">
           <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
           <folding />
         </state>
@@ -935,7 +912,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="748">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
@@ -943,8 +920,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/license.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/organizationDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/candidateDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/companyDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/contactDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/jobDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/licenseDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/noteDao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding />
         </state>
       </provider>

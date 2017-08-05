@@ -10,7 +10,7 @@
  */
 
 
-var Candidate=require('../../app/models/Candidate');
+var Candidate=require('../../app/models/candidate');
 db = require('../services/database');
 var insert_candidate= function (req,res,next)
 {

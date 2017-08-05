@@ -10,7 +10,7 @@
  */
 
 
-var Note=require('../../app/models/Note');
+var Note=require('../../app/models/note');
 db = require('../services/database');
 var insert_note= function (req,res,next)
 {

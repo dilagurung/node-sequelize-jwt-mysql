@@ -7,7 +7,7 @@
  */
 
 
-var Company=require('../../app/models/Company');
+var Company=require('../../app/models/company');
 db = require('../services/database');
 var insert_company= function (req,res,next)
 {
