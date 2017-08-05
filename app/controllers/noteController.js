@@ -9,35 +9,33 @@
  */
 
 
-Job=require('../dao/jobDao');
+Note=require('../dao/noteDao');
 
 var add=function(req,res,next)
 {
-    Job.add(req,res,next);
+    Note.add(req,res,next);
 }
 
 var update= function (req,res,next)
 {
-    Job.update(req,res,next);
+    Note.update(req,res,next);
 }
 
 
 var drop = function (req,res,next)
 {
-    Job.delete(req,res,next);
+    Note.delete(req,res,next);
 }
 
 var find_all= function (req,res,next)
 {
-    console.log('hello');
-    console.log(res.getHeader("token"));
     //res.json('hello');
-    Job.find_all(req,res,next);
+    Note.find_all(req,res,next);
 }
 
 var find_by_id= function (req,res,next)
 {
-    Job.find_by_id(req,res, next);
+    Note.find_by_id(req,res, next);
 }
 
 module.exports={add:add,drop:drop,update:update,find_all:find_all,find_by_id:find_by_id}

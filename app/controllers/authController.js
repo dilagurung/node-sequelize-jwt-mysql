@@ -37,7 +37,7 @@ AuthController.signUp = function(req, res)
 
 // Authenticate a user.
 AuthController.authenticateUser = function(req, res) {
-    console.log(req.body.user);
+    //console.log(req.body.user);
     if(!req.body.user.id || !req.body.user.password) {
         console.log('needd');
         res.status(404).json({ message: 'Username and password are needed!' });

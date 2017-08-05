@@ -15,12 +15,14 @@
                     var user = $cookies.get('user'),
                         token = null;
 
-                    if(user) {
+                    if(user) 
+                    {
                         user = JSON.parse(user);
                         token = user.token ? user.token : null;
                     }
 
-                    if(token) {
+                    if(token) 
+                    {
                         config.headers = config.headers || {};
                         config.headers.Authorization = token;
                     }

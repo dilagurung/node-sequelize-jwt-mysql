@@ -12,6 +12,7 @@ var config = require('../config'),
     companyController = require('../controllers/companyController'),
     contactController = require('../controllers/contactController'),
     jobController = require('../controllers/jobController'),
+    noteController = require('../controllers/noteController'),
 
     AdminController = require('../controllers/adminController'),  
 organizationController = require('../controllers/organizationController');
@@ -79,12 +80,18 @@ var APIRoutes = function(passport) {
     router.put('/job/:id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, jobController.update));
     router.delete('/job/:id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, jobController.drop));
     router.get('/job/id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, jobController.find_by_id));
-    router.get('/job', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, jobController.find_all));
+    router.get('/job', passport.authenticate('jwt', { session: false }), jobController.find_all);
 
 
 
 
+//note
 
+    router.post('/note', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, noteController.add));
+    router.put('/note/:id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, noteController.update));
+    router.delete('/note/:id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, noteController.drop));
+    router.get('/note/id', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, noteController.find_by_id));
+    router.get('/note', passport.authenticate('jwt', { session: false }), allowOnly(config.accessLevels.user, noteController.find_all));
 
 
 

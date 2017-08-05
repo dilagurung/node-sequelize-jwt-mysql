@@ -1,0 +1,17 @@
+{
+
+  "organization":"http://192.168.0.109:8080/api/organization",
+  "user-authenticate":"http://192.168.0.109:8080/api/authenticate",
+  "user-sign-up":"http://192.168.0.109:8080/api/signup",
+  "company":"http://192.168.0.109:8080/api/company",
+  "contact":"http://192.168.0.109:8080/api/contact",
+  "job":"http://192.168.0.109:8080/api/job",
+  "candidate":"http://192.168.0.109:8080/api/candidate",
+  "note":"http://192.168.0.109:8080/api/note",
+  "license":"http://192.168.0.109:8080/api/license",
+  "specific-value":"http://192.168.0.109:8080/api/module_name/id/?id=value",
+  "edit":"pass PUT",
+  "add":"pass POST",
+  "delete":"pass DELETE"
+
+}

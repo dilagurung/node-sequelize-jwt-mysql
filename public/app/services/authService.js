@@ -65,7 +65,8 @@
         }
 
         function getUserData() {
-            if(isAuthenticated()) {
+            if(isAuthenticated()) 
+            {
                 return JSON.parse($cookies.get('user'));
             }
 
